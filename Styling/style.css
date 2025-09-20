@@ -162,7 +162,7 @@ h1,h2,h3 {
 }
 
 .button {
-    padding: 10px 45px;
+    padding: 12px 45px;
     margin-top: 30px;
     border: none;
     font:inherit;
@@ -197,4 +197,10 @@ select#brand-stats {
     width: 100%;
     font-size: 20px;
     padding: 0px;
+    font-weight: 600;
+}
+
+.dark-button{
+    background-color: black;
+    color: white;
 }
