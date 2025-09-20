@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'Body Font';
+    src: url('../Fonts/Body-font.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'Neue Haas Dispaly Medium';
+    src: url('../Fonts/NeueHaasDisplayMediu.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+body{
+    font-family: 'Body Font', Arial, sans-serif;
+}
+
+h1,h2,h3 {
+    font-family: 'Neue Haas Dispaly Medium', Arial, sans-serif;
+}
+
+.upperNav{
+    width: 100%;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 4px black solid;
+}
