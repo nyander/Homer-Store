@@ -5,23 +5,73 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homer</title>
     <link rel="stylesheet" href="./Styling/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/flag-icons@7.5.0/css/flag-icons.min.css" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
 </head>
 <body>
     <nav class="mainNavbar">
       <div class="brandLogo-container">
-        <div class="upperNav"><h1>homer</h1></div>
+        <div class="upperNav">
+          <di class="upperNav-container">
+            <div class="left-upperNav">
+              <div class="country-selection">
+                <div class="country-icon">
+                  <span class="fi fi-gb"></span>
+                </div>
+                
+              </div>
+            </div>
+            <h1>homer</h1>
 
-        <div class="lowerNav">
-           <div>Home</div>
-           <div>Collection</div>
-           <div>Shop</div>
-           <div>Stories</div>
-           <div>Lookbook</div>
-           <div>About</div>
-           <div>Contact</div>
+            <div class="right-upperNav">
+
+              <div class="search-container">
+                <div class="search-container-icon">
+                  <i class="upperNav-icon search-icon" data-lucide="search"></i>
+                </div>
+                <!-- <input class="search-input" type="text" placeholder="Search" /> -->
+              </div>
+
+              <div class="account-profile">
+                <i class="upperNav-icon account-profile-icon" data-lucide="user"></i>
+              </div>
+              
+              <div class="favourites">
+                <i class="upperNav-icon favourites-icon" data-lucide="star"></i>
+              </div>
+
+              <div class="cart">
+                <i class="upperNav-icon cart-icon" data-lucide="shopping-bag"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="lowerNav ">
+          <ul class="nav-menu">
+            <li class="menu-item"><a href="#">Home</a></li>
+            <li class="menu-item"><a href="#">Collection</a></li>
+            <li class="menu-item"><a href="#">Shop</a></li>
+            <li class="menu-item"><a href="#">Stories</a></li>
+            <li class="menu-item"><a href="#">Lookbook</a></li>
+            <li class="menu-item"><a href="#">About</a></li>
+            <li class="menu-item"><a href="#">Contact</a></li>
+          </ul>
         </div>
       </div>    
     </nav>
-    
+    <section class="hero-section">
+      <h2 class="hero-h2">The Universe | Carved</h2>
+      <div class="hero-description">
+        <p class="hero-text">Carbon, formed by stars, forged by pressure, and cut into memory.</p>
+        <p class="hero-text">Every diamond begins as a seed — grown, shaped, and perfected by light.</p>
+        <p class="hero-text">Welcome to the new era of material beauty.</p>
+      </div>
+      <button class="button white-button">Discover our Collection</button>
+      
+    </section>
+    <script>
+      lucide.createIcons();
+    </script>
 </body>
 </html>
