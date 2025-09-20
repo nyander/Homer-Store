@@ -136,7 +136,7 @@ h1,h2,h3 {
     background-size: cover;
     background-position: center;
     transition: background 0.4s ease;
-    padding: 4vh 4vw;
+    padding: 8vh 4vw;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -170,4 +170,31 @@ h1,h2,h3 {
 
 .white-button{
     background-color: '#fffff';
+}
+
+.brand-stats-section{
+    padding: 15vh 4vw;
+}
+
+.statistics{
+    width: 30%;
+}
+
+.brand-stats-value{
+    margin: 28px 0px;
+    margin-bottom: 8px;
+    font-size: 130px;
+    font-weight: 600;
+}
+
+.brand-statistic-description{
+    font-size: 18px;
+}
+
+select#brand-stats {
+    border: none;
+    display: flex;
+    width: 100%;
+    font-size: 20px;
+    padding: 0px;
 }
